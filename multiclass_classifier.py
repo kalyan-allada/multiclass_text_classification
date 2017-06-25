@@ -44,7 +44,6 @@ def split_into_lemmas(text):
     words = TextBlob(text).words
     return [word.lemma for word in words]
 
-# Tokenizing and vectorizing the text elements, eleminating stop words, using maximum of 1100 text tokens per document.
 vectorizer = TfidfVectorizer(analyzer='word',\
                              tokenizer=tokenize,\
                              ngram_range=(1,3),\
