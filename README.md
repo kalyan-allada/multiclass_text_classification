@@ -1,6 +1,6 @@
 ## Document Classifier
 
-The task of this prpject is to classify these documents into one of eight categories: [1,2,3,...8]. This task is based on HackerRank challenge:
+The goal of this project is to classify more than 2K documents into one of eight categories: [1,2,3,...8]. It is a multiclass classification problem. This task is based on HackerRank challenge:
 https://www.hackerrank.com/challenges/document-classification/problem
 
 #### Files
