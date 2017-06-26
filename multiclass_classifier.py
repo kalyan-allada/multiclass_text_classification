@@ -91,8 +91,8 @@ for m in foput :
     label_test.append(int(m))
 
 # fit entire training set and make prediction on test set
-my_model = my_model.fit(X_train,Y_train)
-pred_test = my_model.predict(X_test)
+clf = clf.fit(X_train,Y_train)
+pred_test = clf.predict(X_test)
 print 'accuracy of test set: ', accuracy_score(label_test, pred_test)
 
 
